@@ -13,7 +13,7 @@ class Car{
     }
 
     public function printDataCar(){
-        echo '<p>License: ' , $this->license , ' Driver: ' , $this->driver->name , 'Document: ' , $this->driver.document , '<p>';
+        echo '<p>License: ' , $this->license , ', Driver: ' , $this->driver->name , ', Document: ' , $this->driver->document  , '.</p>';
     }
 }
 ?>
