@@ -1,9 +1,13 @@
 from car import Car
+from payment import Payment
 from account import Account
 from uberPool import UberPool
 from uberX import UberX
 from uberVan import UberVan
 from uberBlack import UberBlack
+from cash import Cash
+from card import Card
+from paypal import Paypal
 
 if __name__ == "__main__":
     print("Hola mundo");

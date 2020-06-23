@@ -6,6 +6,10 @@ require_once "UberX.php";
 require_once "UberVan.php";
 require_once "UberBlack.php";
 require_once "UberPool.php";
+require_once "Payment.php";
+require_once "Card.php";
+require_once "Cash.php";
+require_once "Paypal.php";
 
 print 'Hola mundo';
 $car = new Car("QWY234", new Account("Andres Jaramillo" , "NPI1234"));
