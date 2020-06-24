@@ -3,9 +3,13 @@ public class Account {
     String name;
     String document;
     String password;
+    String email;
 
-    public Account(final String name, final String document) {
+    public Account(String name, String document, String password, String email, Integer id) {
         this.name = String.valueOf(name);
-        this.document = String.valueOf(document);    
+        this.id = id;
+        this.document = String.valueOf(document);
+        this.email = String.valueOf(email);
+        this.password = String.valueOf(password);    
     }    
 }
